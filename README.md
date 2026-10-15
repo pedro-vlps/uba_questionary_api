@@ -1,6 +1,6 @@
 # UBA Questionary API
 
-> No momento o deploy desse projeto é inviável por questões financeiras e de usabilidade, o projeto funciona porém foi feito para estudantes de medicina da UBA (Universidad de Buenos Aires) e o uso não teria aplicabilidade real o suficiente para eu arcar com os custos então criei um projeto inspirado nesse porém para o público do ENEM ([https://github.com/pedro-vlps/enem_questionary_front](https://github.com/pedro-vlps/enem_questionary_front))
+> Deploying this project is currently not viable given the hosting costs and its limited practical use. The application works, but it was built for medical students at UBA (Universidad de Buenos Aires), and the expected usage would not justify the ongoing costs. I therefore created a project inspired by this one for students preparing for ENEM, Brazil's national high school exam: [ENEM Questionary API](https://github.com/pedro-vlps/enem_questionary_api).
 
 UBA Questionary is a study platform developed by [Pedro Vieira](https://github.com/pedro-vlps) for medical students at the Universidad de Buenos Aires. It generates anatomy and biology questions with AI, presents answer explanations, and records students' answers.
 
@@ -153,4 +153,4 @@ No public deployment is maintained. This repository can be evaluated through its
 
 The existing user-storage implementation uses Fernet encryption, including for passwords, and hashed lookup fields for email, nickname, and DNI. This is an implementation detail to review when evaluating the project, rather than a claim of production security.
 
-The [ENEM project](https://github.com/pedro-vlps/enem_questionary_front) carries the study-platform idea forward for a broader Brazilian exam-preparation audience.
+The [ENEM project](https://github.com/pedro-vlps/enem_questionary_api) carries the study-platform idea forward for a broader Brazilian exam-preparation audience.
